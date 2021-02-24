@@ -23,7 +23,7 @@ public class App
         System.out.println( "Hello World!" );
         // java Annotation Configuration
         
-        ApplicationContext context=new AnnotationConfigApplicationContext(JavaConfig.class);
+        ApplicationContext context=new AnnotationConfigApplicationContext(JavaConfig.class); 
        StudentDaoImpl studentDao= context.getBean("studentimple",StudentDaoImpl.class);
         
         //XML Configuration 
